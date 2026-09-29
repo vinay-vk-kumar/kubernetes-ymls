@@ -1,0 +1,10 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: mongo-configmap
+  namespace: mongo
+
+data:
+  MONGO_INITDB_ROOT_USERNAME: vinay
+  MONGO_INITDB_DATABASE: notes
+  MONGO_PORT: 27017
